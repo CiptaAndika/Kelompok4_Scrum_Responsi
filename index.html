@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kelompok 4</title>
+</head>
+    <body>
+        <div class="box">
+            <div class="box-dalam">
+                <h1>PENERPAN METODE SCRUM PADA SISTEM INFORMASI SEKOLAH MENENGAH PERTAMA PANCASILA</h1>
+                    <br>
+                    <br>
+                    <br>
+                <div class="nama">  
+                    <img src="UTY.png" style="display:block; margin:auto;width: 35%;height:35%" >
+                    <br><br>
+                    <p> 5200411476 Risky Devandra Hartana </p>
+                
+                    <p> 5200411477 Robi Ardiansyah </p>
+                
+                    <p>5200411478 Cipta Andika Putra Pratama </p>
+                
+                    <p>5200411479 Cornellius Agova Madu Putera </p>
+                
+                    <p>5200411480 Faris Yudhika Ardana</p> 
+                    <br>
+                    <h1>PROGRAM STUDI INFORMATIKA</h1>
+                    <H1>FAKULTAS SAINS & TEKNOLOGI</H1> 
+                    <H1>UNIVERSITAS TEKNOLOGI YOGYAKARTA</H1> 
+                    <H1>2020/2021</H1> 
+                    <br><br>
+                </div>  
+
+                
+
+                <h2>BAB I</h2>
+                <h2>Pendahuluan</h2>
+
+                <h3>1.1	Latar Belakang Masalah</h3>
+                
+                <p style="text-indent: 50px; text-align: justify;">Pada saat ini perkembangan teknologi informasi dan komunikasi (TIK), khususnya teknologi komputer sudah sangat mempengaruhi berbagai bidang kehidupan, baik dibidang ekonomi, sosial, budaya, maupun pendidikan. Salah satu produk teknologi yang popular adalah teknologi website.Teknologi internet dapat memudahkan untuk mengakses data dan mencari berita maupun informasi secara online. Pemanfaatan teknologi informasi berbasis website tidak hanya dimanfaatkan oleh perusahaan ataupun pemerintahan. Namun sudah mulai menjadi kebutuhan mendasar dalam pemanfaatan media informasi online berbasis website ini dimanfaatkan di dunia pendidikan. Hal ini dapat dilihat dari hampir sekolah tingkat menengah pertama maupun atas sudah mempunyai website. Karena sangat memudahkan para calon peserta didik baru untuk mencari informasi dan melakukan pendaftaran secara online.</p>
+
+                <p style="text-indent: 50px; text-align: justify;">SMP Pancasila terletak di wilayah Kecamatan Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta. SMP Pancasila setiap melakukan penerimaan peserta didik baru selalu menerima banyak sekali siswa bahkan hampir satu daerah berminat ke sekolah ini. SMP Pancasila, saat ini adalah sekolah yang membuka kelas sebanyak 18 kelas, dan 800 siswa per tahun. Namun, pelayanan yang digunakan masih menggunakan pelayanan dengan  manual sehingga waktu yang digunakan lebih lama dan tidak efisien dan pendataan akan berpeluang terjadi kekeliruan.</p>
+
+                <p style="text-indent: 50px; text-align: justify;"> Berdasarkan permasalahan tersebut maka dibuatlah sistem informasi berbasis web yang digunakan untuk penerimaan siswa baru di SMP Pancasila dengan tujuan agar pendataan data dan penerimaan calon siswa baru lebih efektif dan efisien. Sehingga sedikit kemungkinan kekeliruan saat melakukan pendataan pada saat penerimaan peserta didik baru di setiap tahunya.Sistem ini akan mengolah data calon siswa , data admin dan data transaksi dengan menggunakan MySQL. Sistem ini dibangun dengan menggunakan Bahasa pemrograman PHP, HTML, JavaScript, dan CSS.
+                </p>
+               
+
+                <h3>1.2	Rumusan Masalah</h3>
+                <p style="text-indent: 50px;">Berdasarkan latar belakang tersebut, dapat dirumuskan masalah sebagai berikut 
+                    “ Bagaimana membuat suatu sistem website yang dapat digunakan untuk memudahkan calon siswa baru dan para orang tua dapat dengan mudah mendaftarkan calon siswa ke sekolah dan dapat memantau perkebangan dari siswa”.                        
+                    </p>
+                <h3>1.3	Batasan Masalah</h3>
+                    <p style="text-indent: 50px;">Adapun ruang lingkup permasalahan yang akan dibahas dalam penulisan ini, yaitu: 
+                        <ol>
+                        <li>Pengembangan sistem informasi pendaftaran online berbasis website.</li>
+                        <li>Penulisan ini membahas sistem informasi pendaftaran online berbasis website yang mencakup registrasi, penjadwalan seleksi dan laporan dari penerimaan siswa baru</li>
+                        <li>Hasil dari analisis dan perancangan adalah pengembangan
+                            aplikasi berbasis web.</li>
+                        </ol>
+                    </p>
+                <h3>1.3	Tujuan Penelitian</h3>
+                <p style="text-indent: 50px;">Menghasilkan sistem informasi pendaftaran sekolah berbasis website.</p>
+                <h3>1.4	Manfaat Penelitian</h3>
+                <p style="text-indent: 50px;">
+                    <ol>
+                    <li>Meningkatkan efisiensi dan efektifitas pengelolaan data pada sekolah.</li>
+                    <li>Calon siswa lebih mudah memahami untuk melakukan pedaftaran karena dilakukan secara online.</li>
+                    <li>Sekolah juga dapat lebih mendata calon siswa dan siswa yang ada di sekolah.</li>
+                    </ol>
+                    </p> 
+
+                    <h2>BAB II</h2>
+                <h2>Landasan Teori</h2>
+                <h3>2.1	Metode DevOps</h3>
+                
+                <p style="text-indent: 50px;">DevOps adalah metode pengembangan software yang menekankan komunikasi, kolaborasi dan integrasi antara pengembang software dan profesional TI. Melalu metode ini bagian pengembangan dan bagian operasional bekerja lebih dekat. Tujuannya untuk mengurangi friksi dan meningkatkan kecepatan kerja. Berikut adalah tahapan - tahapan metode DevOps.</p>
+                <ol>
+                    <li>Plan, Pada tahap perencanaan, proses identifikasi tujuan dan persyaratan untuk merancang dan mengembangkan perangkat lunak.</li>
+                    <li>Code, Setelah rencana dibuat, tim developer dapat mulai menulis kode yang dibutuhkan untuk mengembangkan produk.</li>
+                    <li>Build, Setelah tim developer selesai menulis kode yang dibutuhkan, mereka akan memasukan kode tersebut ke dalam shared code repository.</li>
+                    
+                    <li>Test, Langkah selanjutnya adalah melakukan pengujian. Jika ada masalah yang ditemukan pada fase ini, maka masalah tersebut akan dikirim kembali ke tim developer untuk diselesaikan</li>
+                    
+                    <li>Release, Pada tahap ini, setiap perubahan kode telah melewati serangkaian pengujian dan tim IT operations telah memastikan bahwa masalah yang merusak dan regresi sudah teratasi dengan baik.</li>
+
+                    <li>Deploy, Setelah production environment dibuat dan dikonfigurasi maka versi terakhir dari pengembangan yang telah dilakukan akan diterapkan.</li>
+
+                    <li>Operate, Operasi dalam siklus DevOps berkaitan dengan konfigurasi dan pengelolaan aplikasi perangkat lunak setelah penerapan.</li>
+
+                    <li>Monitor, Pada tahap terakhir ini, tim IT operations akan terus bekerja keras untuk memantau infrastruktur, sistem, dan aplikasi.</li>
+                    </ol>
+
+                    <img src="MtdDevOps.JPG" style="display:block; margin:auto;" >
+
+
+
+                <h3>2.2	Sistem </h3>
+                    <p style="text-indent: 50px; text-align: justify;">
+                        Menurut I Putu Agus Eka Pratama (2014:7 ) Sistem didefinisikan sebagai sekumpulan prosedur yang saling berkaitan dan saling terhubung untuk melakukan suatu tugas bersama - sama. Secara garis besar, sistem informasi terdiri atas tiga komponen utama. Ketiga komponen tersebut mencakup software, hardware, dan brainware. Ketiga komponen ini berkaitan satu sama lain. Software mencakup semua perangkat lunak yang dibangun dengan bahasa pemrograman tertentu, pustaka, untuk kemudian menjadi sistem operasi, aplikasi, dan driver. Sistem operasi, aplikasi, driver, saling bekerja sama agar komputer dapat berjalan dengan baik. Hardware mencakup semua perangkat keras (motherboard, processor, VGA, dan lainnya) yang disatukan menjadi sebuah komputer. Dalam konteks yang luas, bukan hanya sebuah komputer, namun sebuah jaringan komputer. Brainware mencakup kemampuan otak manusia, yang mencakup ide, pemikiran, analisis di dalam menciptakan dan menggabungkan hardware dan software. Penggabungan software dan hardware dengan bantuan brainware inilah (melalui sejumlah prosedur) yang dapat menciptakan sebuah sistem yang bermanfaat bagi pengguna.
+                    </p>
+                    <p style="text-indent: 50px; text-align: justify;">
+                        Menurut Yakub (2012:1) sistem adalah sekelompok elemen – elemen yang terintegrasi dengan tujuan yang sama untuk mencapai suatu tujuan. Terdiri dari sejumlah sumber daya manusia, material, uang dan informasi. Sumber dayatersebut bekerjasama menuju tercapainya suatu tujuan tertentu yang ditentukan oleh pemilik atau manjemen.
+                    </p>
+                    <p style="text-indent: 50px; text-align: justify;">
+                        Pengertian sistem menurut Marliana B. Winanti,S.Si.,M.Si dalam bukunya sistem informasi manajemen (2014: 4 ) Sistem adalah seperangkat komponen yang saling berhubungan dan saling berkerjasama untuk mencapai beberapa tujuan.Sedangkan pengertian sistem menurut Tata Sutabri dalam bukunya konsep sistem informasi (2011: 4 ) adalah Sekelompok unsur yang erat hubungannya satu dengan yang lainnya, yang berfungsi bersama-sama untuk mencapai tujuan tertentu .
+                    </p>
+                    <h3>2.3	Informasi</h3>
+                    <p style="text-indent: 50px; text-align: justify;"> 
+                        Menurut I Putu Agus Eka Pratama (2014:7), informasi merupakan hasil pengolahan data dari satu atau berbagai sumber, yang kemudian diolah, sehingga memberikan nilai, arti, dan manfaat. Proses pengolahan ini memerlukan teknologi.Pada proses pengolahan data, untuk dapat menghasilkan informasi, juga dilakukan proses verifikasi secara akurat, spesifik, dan tepat waktu. Hal ini penting agar informasi dapat memberikan nilai dan pemahaman kepada pengguna. Pengguna dalam hal ini mencakup pembaca, pendengar, penonton, bergantung pada bagaimana cara pengguna tersebut menikmati sajian informasi dan melalui media apa informasi tersebut disajikan.
+                    </p>
+
+                    <p style="text-indent: 50px; text-align: justify;"> 
+                        Menurut Tata Sutabri (2012:29) informasi adalah sebuah istilah yang tepat dalam pemakaian umum. Informasi dapat mengenai data mentah, data tersusun, kapasitas sebuah saluran komunikasi, dan lain sebagainya. Sumber informasi adalah data. Data merupakan kenyataan yang menggambarkan suatu kejadian serta merupakan suatu bentuk yang masih mentah yang belum dapat bercerita banyak sehingga perlu diolah lebih lanjut melalui suatu model untuk menghasilkan informasi.
+                    </p>
+
+                    <p style="text-indent: 50px; text-align: justify;"> 
+                        Informasi adalah data yang diolah menjadi bentuk lebih berguna dan lebih berarti bagi yang menerimanya atau data yang diproses sedemikian rupa sehingga Meningkatkan pengetahuan seseorang yang menggunakan. Sistem apapun tanpa ada informasi tidak akan berguna, karena sistem tersebut akan mengalami kemacetan dan akhirnya berhenti. Informasi dapat berupa data mentah, data tersusun, kapasitas sebuah saluran informasi dan sebagainya. (Yakub,2012:8).Pengertian informasi menurut Marliana B. Winanti,S.Si.,M.Si dalam bukunya sistem informasi manajemen (2014:14) Informasi adalah data yang telah diolah menjadi sebuah bentuk yang berarti bagi penerimanya dan bermanfaat dalam pengambilan keputusan saat ini atau saat mendatang.
+                    </p>
+
+
+                    <h3>2.4	Sistem Informasi</h3>
+
+                    <p style="text-indent: 50px; text-align: justify;">Definisi sistem informasi menurut Hidayatullah & Arief (2016), sistem informasi merupakan suatu sistem di dalam suatu organisasi yang mempertemukan kebutuhan pengolahan transaksi harian, mendukung operasi, bersifat manajerial dan kegiatan strategi dari suatu organisasi dan menyediakan pihak luar tertentu dengan laporan-laporan yang diperlukan.</p>
+                    <p style="text-indent: 50px;">Menurut Rahmawati & Bachtiar (2018), komponen – komponen sistem 
+                        informasi dibagi menjadi 5 yaitu sebagai berikut:</p>
+                        <ol>
+                            <li>Hardware (perangkat keras), mencakup berbagai peralatan fisik seperti komputer dan printer.</li>
+                            <li>Software (perangkat lunak), berupa perintah-perintah tertentu yang ditujukan untuk memerintahkan komponen melaksanakan tugasnya.</li>
+                            <li>Data, merupakan komponen paling dasar atau masih mentah dari suatu informasi yang akan diproses lebih lanjut agar dapat berarti dan dapat menghasilkan informasi.</li>
+                            <li>Prosedur, merupakan aturan-aturan yang digunakan untuk menghubungkan berbagai macam perintah dan data untuk menentukan rancangan dan penggunaan sistem informasi.</li>
+                            <li>Manusia, merupakan pelaksana yaitu mereka yang terlibat dalam kegiatan sistem informasi seperti operator, pemimpin dan sebagainya.</li>
+                        </ol>
+                    <h3>2.5	Website</h3>
+                    <p style="text-indent: 50px;">Website adalah sekumpulan halaman web yang saling berhubungan yang umumnya berada pada peladen yang sama berisikan kumpulan informasi yang disediakan secara perorangan, kelompok, atau organisasi. Sebuah situs web biasanya ditempatkan setidaknya pada sebuah server web yang dapat diakses melalui jaringan seperti Internet, ataupun jaringan area lokal (LAN) melalui alamat Internet yang dikenali sebagai URL. Gabungan atas semua situs yang dapat diakses publik di Internet disebut pula sebagai World Wide Web atau lebih dikenal dengan singkatan WWW. Meskipun setidaknya halaman beranda situs Internet umumnya dapat diakses publik secara bebas, pada praktiknya tidak semua situs memberikan kebebasan bagi publik untuk mengaksesnya, beberapa situs web mewajibkan pengunjung untuk melakukan pendaftaran sebagai anggota, atau bahkan meminta pembayaran untuk dapat menjadi aggota untuk dapat mengakses isi yang terdapat dalam situs web tersebut, misalnya situs-situs yang menampilkan pornografi, situs-situs berita, layanan surel (e-mail), dan lain-lain. Pembatasan-pembatasan ini umumnya dilakukan karena alasan keamanan, menghormati privasi, atau karena tujuan komersial tertentu.</p>
+
+                    <h3> 2.6 Defenisi Penerimaan </h3>
+                    <p style="text-indent: 50px; text-align: justify;">Pengertian penerimaan disini pada dasarnya hanya untuk memperlancar dan mempermudah dalam proses penerimaan siswa siswi baru, pendataan dan pembagian kelas seorang siswa siswi. Sehingga dapat terorganisir, teratur dengan cepat dan tepat dengan beberapa persyaratan yang telah ditentukan oleh sekolah. Proses penerimaan siswa baru merupakan salah satu kewajiban pihak sekolah dan Dinas Pendidikan setiap tahun ajaran baru.</p>
+
+                    <h3> 2.7 Pengertian Siswa </h3>
+                    <p style="text-indent: 50px; text-align: justify;">
+                        Siswa/siswi istilah bagi peserta didik pada jenjang pendidikan menengah pertama dan menengah atas. Siswa adalah komponen masukan dalam sistem pendidikan, yang selanjutnya diproses dalam proses pendidikan, sehingga menjadi manusia yang berkualitas sesuai dengan tujuan pendidikan nasional. Sebagai suatu komponen pendidikan, siswa dapat ditinjau dari berbagai pendekatan, antara lain: pendekatan sosial, pendekatan psikologis, dan pendekatan edukatif/pedagogis.
+                    </p>
+
+                    <h3> 2.8 World Wide Web </h3>
+                    <p style="text-indent: 50px; text-align: justify;">
+                        Pengertian World Wide Web dalam bukunnya Darma, Jarot S., Shenia A (2009). World Wide Web, biasa lebih terkenal disingkat sebagai WWW adalah suatu ruang informasi yang dipakai oleh pengenal global yang disebut Pengidentifikasi Sumber Seragam untuk mengenal pasti sumber daya berguna. WWW sering dianggap sama dengan Internet secara keseluruhan, walaupun sebenarnya ia hanyalah bagian daripada Internet. WWW merupakan kumpulan peladen web dari seluruh dunia yang mempunyai kegunaan untuk menyediakan data dan informasi untuk dapat digunakan bersama. WWW adalah bagian yang paling menarik dari Internet. Melalui web, para pengguna dapat mengakses informasi-informasi yang tidak hanya berupa teks tetapi bisa juga berupa gambar, suara, video dan animasi.
+                    </p>
+
+                    <h3>2.9 PHP</h3>
+                    <p style="text-indent: 50px; text-align: justify;">
+                        Menurut Arief (2011c:43) PHP (Hypertext Preprocessor) adalah Bahasa server-side – scripting yang menyatu dengan HTML untuk membuat halaman web yang dinamis. Karena PHP merupakan server-side-scripting maka sintaks dan perintah-perintah PHP akan diesksekusi diserver kemudian hasilnya akan dikirimkan ke browser dengan format HTML.
+                    </p>
+
+                    <p style="text-indent: 50px; text-align: justify;">
+                        Kegunaan ini tergolong masih baru dibandingkan surat elektronik, sebenarnya WWW merupakan kumpulan dokumen yang tersimpan di peladen web, dan yang peladennya tersebar di lima benua termasuk Indonesia yang terhubung menjadi satu melalui jaringan Internet. Dokumen-dokumen informasi ini disimpan atau dibuat dengan format HTML (Hypertext Markup Language).Suatu halaman dokumen informasi dapat terdiri atas teks yang saling terkait 
+                        dengan teks lainnya atau bahkan dengan dokumen lain. Keterkaitan halaman lewat 
+                        teks ini disebut pranala. Dokumen infomasi ini tidak hanya terdiri dari teks tetapi 
+                        dapat juga berupa gambar, mengandung suara bahkan klip video. Kaitan antar dokumen yang seperti itu biasa disebut hipermedia. Jadi dapat disimpulkan bahwa WWW adalah sekelompok dokumen multimedia yang saling bertautan dengan menggunakan tautan hiperteks. Dengan mengeklik pranala (hipertaut), maka para pengguna bisa berpindah dari satu dokumen ke dokumen lainnya.
+                    </p>
+
+                    <h3>2.10 MySQL</h3>
+                    <p style="text-indent: 50px; text-align: justify;">
+                        Menurut Arief (2011d:152) MySQL adalah salah satu jenis database server yang sangat terkenal dan banyak digunakan untuk membangun aplikasi web yang menggunakan database sebagai sumber dan pengolahan datanya.
+                    </p>
+
+                <p style="text-indent: 50px; text-align: justify;">Tidak sama dengan proyek-proyek seperti Apache, di mana perangkat lunak dikembangkan oleh komunitas umum, dan hak cipta untuk kode sumber dimiliki oleh penulisnya masing-masing, MySQL dimiliki dan disponsori oleh sebuah perusahaan komersial Swedia MySQL AB, di mana memegang hak cipta hampir atas semua kode sumbernya. Kedua orang Swedia dan satu orang Finlandia yang mendirikan MySQL AB adalah: David Axmark, Allan Larsson, dan Michael "Monty" Widenius.</p>
+
+                <h3>2.11 XAMPP</h3>
+                <p style="text-indent: 50px; text-align: justify;">Menurut Wicaksono (2008:7) menjelaskan bahwa “XAMPP adalah sebuah software yang berfungsi untuk menjalankan website berbasis PHP dan menggunakan pengolah data MYSQL di komputer lokal”. XAMPP berperan sebagai server web pada komputer lokal. XAMPP juga dapat disebut sebuah Cpanel server virtual, yang dapat membantu melakukan preview sehingga dapat dimodifikasi website tanpa harus online atau terakses dengan internet.
+                </p>
+
+                <h3>2.12 Bagan Alir Sistem (Sistem Flowchart )</h3>
+                <p style="text-indent: 50px; text-align: justify;">Bagan alir sistem merupakan bagan yang menunjukkan arus pekerjaan secara keseluruhan dari sistem. Bagan ini menjelaskan urut-urutan dari prosedur prosedur yang ada didalam sistem, serta menunjukkan apa yang dikerjaka disistem. Simbol-simbol yang digunakan dalam menggambarkan Bagan Alir Sistem antara lain sebagai berikut:
+                </p>
+                <img src="Flow.png" style="display:block; margin:auto;" >
+
+                <h3>2.13 Diagram Arus Data (DAD)</h3>
+                <p style="text-indent: 50px; text-align: justify;">
+                    Diagram arus data adalah suatu bentuk model yang menggambarkan sistem sebagai suatu jaringan proses fungsional yang dihubungkan satu sama lain baik secara manual maupun komputer.
+                </p>
+                <p style="text-indent: 50px; text-align: justify;">Adapun tingkat atau level DAD terdiri dari: </p>
+                <ol>
+                    <li>Diagram Konteks </li>
+                    <p style="text-indent: 50px; text-align: justify;">Merupakan diagram yang ditingkatnya paling tinggi, yang terdiri dari suatu proses dan menggambarkan ruang lingkup sistem.</p>
+                    <li>Diagram Nol</li>
+                    <p style="text-indent: 50px; text-align: justify;">Merupakan diagram antara konteks dan diagram rinci yang menggambarkan proses utama dari DAD yang sedang dikembangkan.</p>
+                    <li>Diagram Rinci</li>
+                    <p style="text-indent: 50px; text-align: justify;">Merupakan diagram paling bawah, yang merupakan penguraian dari proses yang ada pada diagram nol.</p>
+
+                </ol>
+                <p style="text-indent: 50px; text-align: justify;">Adapun komponen-komponen DAD terdiri dari: </p>
+                <img src="DAD.png" style="display:block; margin:auto;" >
+
+
+                <h3 >2.14 Diagram Hubungan Entitas (ERD) </h3>
+                <p style="text-indent: 50px; text-align: justify;">
+                    Entity Relationship Diagram (ERD) adalah suatu model jaringan (network) yang menggunakan susunan data yang disimpan dari sistem secara baik atau merupakan konseptual yang mendeskripsikan hubungan antara data store (dalam DAD).
+                </p>
+                <p style="text-indent: 50px; text-align: justify;">Komponen-komponen yang digunakan dalam merancang ERD adalah sebagai berikut:</p>
+                <img src="ERD.png" style="display:block; margin:auto;" >
+
+
+                <h2>BAB III</h2>
+                <h2> PEMBAHASAN</h2>
+                <h3>3.1	METODE PENELITIAN</h3>
+                <p style="text-indent: 50px;">Metode penelitian yang digunakan dalam penelitian ini adalah metode pengembangan DevOps yang memiliki proses seperti dibawah ini:</p>
+                <ol>
+                    <li>Plan <br> website ini dibuat dengan tujuan untuk memudahkan pendaftaran yang dulu masih menggunakan metode manual akan lebih efektif dan efisien ketika menggunakan sistem infomasi berupa websit</li>
+                    <li>Code <br> teks editor yang digunakan pada kasus ini menggunakan sumblime teks atau VSC (visual studio code).bahasa pemrograman yang kami gunakan dalam kasus ini adalah PHP, HTML, JavaScript, dan CSS.</li>
+                    <li>Build <br>Setelah tim developer selesai menulis kode yang dibutuhkan, mereka akan memasukan kode tersebut ke dalam shared code repository. </li>
+                    <li>Test <br>Langkah selanjutnya adalah melakukan pengujian.Pengujian dilakukan dengan cara melakukan runing program. Jika ada masalah yang ditemukan pada fase ini, maka masalah tersebut akan dikirim kembali ke tim developer untuk diselesaikan. </li>
+                    <li>Release <br>Pada tahapan ini,semua peruhan baik desain UI dan pengkodean telah dilakukan pengecekan final sehingga tidak ada kerusakan dan missing proses yang terjadi. </li>
+                    <li>Deploy <br>Setelah production environment dibuat dan dikonfigurasi maka versi terakhir dari pengembangan yang telah dilakukan akan diterapkan</li>
+                    <li>Operate<br>Operasi dalam siklus DevOps berkaitan dengan konfigurasi dan pengelolaan aplikasi perangkat lunak setelah penerapan </li>
+                    <li>Monitor <br> Pada tahap terakhir ini , tim IT operations akan terus bekerja keras untuk memantau infrastruktur , sistem , dan aplikasi.</li>
+                </ol>
+                
+
+                <h3>3.2	Perancangan Sistem</h3>
+
+                <p style="text-indent: 50px;text-align: justify;">Pada perancangan, menggunakan diagram kontek, DFD, ERD, dan perancangan database. Dimana tujuan dari diagram kontek adalah mengetahui keadaan sistem yang akan dibangun. Gambar 1 adalah diagram kontek untuk sistem yang dibuat.</p>
+                <img src="diagramkonteks.png" style="display:block; margin:auto;width: 100%" >
+                <p style= " text-align: center;"><b> Gambar 1. Diagram kontek</b></p>
+                <p style="text-indent: 50px;text-align: justify;">Berdasarkan Gambar 1, maka akan dipecah menjadi data flow diagram (DFD) di Gambar 2. DFD adalah suatu model logika data atau proses yang dibuat lebih mendetail dibanding diagram konteks yang diperbolehkan, bisa dicapai dengan 
+                mengembangkan diagram. Sisa diagram asli dikembangkan ke dalam gambaran yang lebih 
+                terperinci yang melibatkan tiga sampai Sembilan proses dan menunjukkan penyimpanan data 
+                dan aliran data baru pada level yang lebih rendah. </p>
+                <img src="diagram jenjang.png" style="display:block; margin:auto;width: 100%" >
+                <p style= " text-align: center;"><b>Gambar 2. DFD level 0</b></p>
+                <p style="text-indent: 50px;text-align: justify;">DFD level 0 merupakan pengembangan dari diagram konteks, DFD level 1 merupakan pengembangan dari DFD level 0. Tiap proses dari DFD dapat dikembangkan lagi menjadi lebih detail sampai proses-proses tersebut tidak dapat dikembangkan lagi</p>
+                <img src="DAD_1.png" style="display:block; margin:auto;width: 100%" >
+                <p style= " text-align: center;"><b>Gambar 3. DFD level 1 
+                </b></p>
+                <br>
+                <img src="DAD_lv2.png" style="display:block; margin:auto;width: 100%" >
+                <p style= " text-align: center;"><b>Gambar 4. DFD level 2 
+                </b></p>
+                <br>
+                <img src="DAD_lv3.png" style="display:block; margin:auto;width: 100%;" >
+                <p style= " text-align: center;"><b>Gambar 5. DFD level 3
+                </b></p>
+                <P style="text-indent: 50px; text-align: justify;">Entity Relationship Diagram (ERD) adalah diagram yang dapat mengambarkan relasi antar entitas yang digunakan dalam pembuatan sistem.</P>
+                 <img src="ERD_1.png" style="display:block; margin:auto;width: 100%;" >
+                <p style= " text-align: center;"><b>ERD
+                </b></p>
+                <br> 
+                <h3>3.3 Design Database</h3>
+                    <img src="admin.png" style="display:block; margin:auto;width: 100%" >
+                    <p style= " text-align: center;"><b>Gambar 6 Tabel Admin </b></p>
+                    <br>
+                    <img src="calon siswa.png" style="display:block; margin:auto;width: 100%" >
+                    <p style= " text-align: center;"><b>Gambar 7 Tabel Calon Siswa </b></p>
+                    <br>
+                    <img src="formulir pendaftaran.png" style="display:block; margin:auto;width: 100%" >
+                    <p style= " text-align: center;"><b>Gambar 8 Tabel Formulir </b></p>
+                    <br>
+                    <img src="pembayaran.png" style="display:block; margin:auto;width: 100%" >
+                    <p style= " text-align: center;"><b>Gambar 9 Tabel Pembayaran </b></p>
+                    <br>
+                    <img src="sistem.png" style="display:block; margin:auto;width: 100%" >
+                    <p style= " text-align: center;"><b>Gambar 10 Tabel Transaksi </b></p>
+                    <h3>3.4 Relasi Tabel</h3>
+                    <img src="RelasiTabel.png" style="display:block; margin:auto;width: 80%" >
+                    <p style= " text-align: center;"><b>Gambar 11 Relasi Tabel </b></p>
+                    <br>
+                    <br>
+                    <h3>3.5 Rancangan Desain UI</h3>
+                    <br>
+                    <p>A. Rancangan tampilan desain UI Halaman Login</p>
+                    <img src="login.png"  style="display:block; margin:auto; ;height: 30%;width: 50%">
+                    <p style= " text-align: center;"><b>Gambar 12 Halaman Utama </b></p>
+                    <br>
+                    <p>B. Rancangan tampilan desain UI halaman Home</p>
+                    <img src="index.png" style="display:block; margin:auto;width: 80%" >
+                    <p style= " text-align: center;"><b>Gambar 12 Halaman Utama </b></p>
+                    <br>
+                    <p>C. Rancangan tampilan desain UI halaman Daftar</p>
+                    <img src="DAFTAR.png" style="display:block; margin:auto;width: 80%" >
+                    <p style= " text-align: center;"><b>Gambar 13 Halaman Daftar </b></p>
+                    <br>
+            </div>
+        </div>
+    
+</body>
+</html>
