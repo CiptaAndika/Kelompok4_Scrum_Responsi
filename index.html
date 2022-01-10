@@ -155,23 +155,25 @@
                 <h2>BAB III</h2>
                 <h2> PEMBAHASAN</h2>
                 <h3>3.1	METODE PENELITIAN</h3>
-                <p style="text-indent: 50px;">Metode penelitian yang digunakan dalam penelitian ini adalah metode pengembangan DevOps yang memiliki proses seperti dibawah ini:</p>
+                <p style="text-indent: 50px;">Metode penelitian yang digunakan dalam penelitian ini adalah metode pengembangan SCRUM yang memiliki proses seperti yang diperlihatkan pada gambar diatas.</p>
                 <ol>
-                    <li>Plan <br> website ini dibuat dengan tujuan untuk memudahkan pendaftaran yang dulu masih menggunakan metode manual akan lebih efektif dan efisien ketika menggunakan sistem infomasi berupa websit</li>
-                    <li>Code <br> teks editor yang digunakan pada kasus ini menggunakan sumblime teks atau VSC (visual studio code).bahasa pemrograman yang kami gunakan dalam kasus ini adalah PHP, HTML, JavaScript, dan CSS.</li>
-                    <li>Build <br>Setelah tim developer selesai menulis kode yang dibutuhkan, mereka akan memasukan kode tersebut ke dalam shared code repository. </li>
-                    <li>Test <br>Langkah selanjutnya adalah melakukan pengujian.Pengujian dilakukan dengan cara melakukan runing program. Jika ada masalah yang ditemukan pada fase ini, maka masalah tersebut akan dikirim kembali ke tim developer untuk diselesaikan. </li>
-                    <li>Release <br>Pada tahapan ini,semua peruhan baik desain UI dan pengkodean telah dilakukan pengecekan final sehingga tidak ada kerusakan dan missing proses yang terjadi. </li>
-                    <li>Deploy <br>Setelah production environment dibuat dan dikonfigurasi maka versi terakhir dari pengembangan yang telah dilakukan akan diterapkan</li>
-                    <li>Operate<br>Operasi dalam siklus DevOps berkaitan dengan konfigurasi dan pengelolaan aplikasi perangkat lunak setelah penerapan </li>
-                    <li>Monitor <br> Pada tahap terakhir ini , tim IT operations akan terus bekerja keras untuk memantau infrastruktur , sistem , dan aplikasi.</li>
+                    <li>Produck backlog <br> Tahapan ini mengelompokkan kebutuhan pengguna yang telah dihasilkan dari proses pengumpulan kebutuhan yang disebut dengan backlog items yang terdiri dari daftar fitur dan produk yang harus diselesaikan yang urut sesuai dengan skala prioritas. Pekerjaan yang dilakukan pada tahapan ini melakukan analisis terhadap kebutuhan sistem informasi SMP Pancasila. Karena SMP Pancasila dalam melakukan pengelolaan pendaftaran masih bergantung pada pendaftaran manual. Untuk itu peneliti melakukan komunikasi kepada pihak Sekolah, sistem informasi pendaftaran online yang dilakukan dengan teknologi web services. Komunikasi berkaitan dengan kebutuhan dilakukan dengan pihak sekolah SMP Pancasila yang diwakili oleh kepala bagian akademik dan kepada bagian IT sedangkan komunikasi tentang pembayaran pendaftaran yang diwakili oleh bagian keuangan dan staff IT.</li>
+                    <li>Sprint planning <br> Tahapan ini adalah tahapan dimana peneliti memberikan paparan kepada pihak SMP Pancasila berkaitan dengan gambaran tentang bagaimana sistem pendaftaran akan dibuat menggunakan media prototype produk. Selain memaparkan tentang sistem pendaftran peneliti juga memaparkan berkaitan dengan hal teknis seperti kebutuhan jariangan internet, server, hosting, domain dan SDM yang akan mengelola sistem pendaftaran dan hal lainnya yang berhubungan dengan keberlangsungan sistem pendaftaran siswa. 
+                    </li>
+                    <li>Sprint backlog <br>Tahapan ini merupakan tahapan untuk melakukan pengerjaan pemenuhan kebutuhan sesuai backlog items yang telah diketahui berdasarakan product backlog atau fase analisis kebutuhan . Setelah hasil analisis kebutuhan diketahui maka produk yang dihasilkan harus mampu melakukan berbagai hal dengan proses seleksi masuk diantaranya adalah:</li>
+                    <ol>
+                        <ol>1)  Sistem menyediakan pembuatan akun untuk mendaftar, </ol>
+                        <ol>2)	Menyediakan form pendaftaran</ol>
+                        <ol>3)	Siswa dapat mengupload data.</ol>
+                        <ol>4)	Panitia mengumumkan hasil seleksi.</ol>
+                    </ol>
                 </ol>
                 
 
                 <h3>3.2	Perancangan Sistem</h3>
 
                 <p style="text-indent: 50px;text-align: justify;">Pada perancangan, menggunakan diagram kontek, DFD, ERD, dan perancangan database. Dimana tujuan dari diagram kontek adalah mengetahui keadaan sistem yang akan dibangun. Gambar 1 adalah diagram kontek untuk sistem yang dibuat.</p>
-                <img src="diagramkonteks.png" style="display:block; margin:auto;width: 100%" >
+                <img src="diagram konteks.png" style="display:block; margin:auto;width: 100%" >
                 <p style= " text-align: center;"><b> Gambar 1. Diagram kontek</b></p>
                 <p style="text-indent: 50px;text-align: justify;">Berdasarkan Gambar 1, maka akan dipecah menjadi data flow diagram (DFD) di Gambar 2. DFD adalah suatu model logika data atau proses yang dibuat lebih mendetail dibanding diagram konteks yang diperbolehkan, bisa dicapai dengan 
                 mengembangkan diagram. Sisa diagram asli dikembangkan ke dalam gambaran yang lebih 
@@ -180,19 +182,19 @@
                 <img src="diagram jenjang.png" style="display:block; margin:auto;width: 100%" >
                 <p style= " text-align: center;"><b>Gambar 2. DFD level 0</b></p>
                 <p style="text-indent: 50px;text-align: justify;">DFD level 0 merupakan pengembangan dari diagram konteks, DFD level 1 merupakan pengembangan dari DFD level 0. Tiap proses dari DFD dapat dikembangkan lagi menjadi lebih detail sampai proses-proses tersebut tidak dapat dikembangkan lagi</p>
-                <img src="DAD_1.png" style="display:block; margin:auto;width: 100%" >
+                <img src="dad_m.png" style="display:block; margin:auto;width: 100%" >
                 <p style= " text-align: center;"><b>Gambar 3. DFD level 1 
                 </b></p>
                 <br>
-                <img src="DAD_lv2.png" style="display:block; margin:auto;width: 100%" >
+                <img src="dad lv2.png" style="display:block; margin:auto;width: 100%" >
                 <p style= " text-align: center;"><b>Gambar 4. DFD level 2 
                 </b></p>
                 <br>
-                <img src="DAD_lv3.png" style="display:block; margin:auto;width: 100%;" >
+                <img src="dad lv 3.png" style="display:block; margin:auto;width: 100%;" >
                 <p style= " text-align: center;"><b>Gambar 5. DFD level 3
                 </b></p>
                 <P style="text-indent: 50px; text-align: justify;">Entity Relationship Diagram (ERD) adalah diagram yang dapat mengambarkan relasi antar entitas yang digunakan dalam pembuatan sistem.</P>
-                 <img src="ERD_1.png" style="display:block; margin:auto;width: 100%;" >
+                 <img src="erd_m.png" style="display:block; margin:auto;width: 100%;" >
                 <p style= " text-align: center;"><b>ERD
                 </b></p>
                 <br> 
